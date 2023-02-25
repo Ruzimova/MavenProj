@@ -6,8 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/features/myNoise.feature", 
-				     glue = { "stepdefinitions" })
+@CucumberOptions(features = "src/test/java/features/myNoise.feature", glue = { "stepdefinitions" })
 public class MyProjectTestRunner {
 
 }

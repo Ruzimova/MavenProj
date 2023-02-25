@@ -28,7 +28,7 @@ public class MyNoiseApp {
 		driver.get("https://mynoise.net/");
 		String OpenTheApp = driver.findElement(By.xpath("//h1[text()='I need to focus in a noisy environment']"))
 				.getText();
-		Assert.assertEquals(OpenTheApp,"I need to focus in a noisy environment","Assertion open the app");
+		Assert.assertEquals(OpenTheApp, "I need to focus in a noisy environment", "Assertion open the app");
 	}
 
 	@Then("^Choose one section$")
