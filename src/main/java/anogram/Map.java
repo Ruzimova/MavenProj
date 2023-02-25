@@ -51,8 +51,8 @@ public class Map {
 
 	public static void main(String[] args) {
 
-		String s1 = "dangerr";
-		String s2 = "gardenn";
+		String s1 = "danger";
+		String s2 = "garden";
 
 		System.out.println(areAnogram(s1, s2));
 	}
